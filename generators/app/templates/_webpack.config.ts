@@ -53,7 +53,7 @@ const config: webpack.Configuration = {
         extractSass,
         new CleanWebpackPlugin( ['dist'], { verbose: true }),
         new HtmlWebpackPlugin({
-            title: <%= project %>,
+            title: "<%= project %>",
             template: "./src/index.html",
             favicon: "",
             cache: true,
