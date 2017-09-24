@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "alwaysStrict": true,
+        "diagnostics": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "pretty": true,
+        "sourceMap": true,
+        "target": "<%= target %>",
+        "outDir": "dist",
+        "listEmittedFiles": true,
+        "declaration": true,
+        "declarationDir": "types",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2015",
+            "es2016"
+        ],
+        "traceResolution": true,
+        "listFiles": true
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules",
+        ".vscode",
+        "dist"
+    ]
+}

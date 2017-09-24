@@ -1,0 +1,16 @@
+{
+  "name": "generator-dwlts",
+  "version": "0.1.0",
+  "description": "my standard webpack and typescript setup",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "files": [
+    "generators"
+  ],
+  "author": "dwl",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^2.0.0"
+  }
+}
